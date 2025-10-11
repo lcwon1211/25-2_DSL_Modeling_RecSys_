@@ -26,34 +26,37 @@ RunningCourse_Recommendation/
 ├── report/
 │   ├── 25-2_DSL_RecSys_report.pdf             # Final project report
 │   └── 25-2_RecSys_runningcourse_recsystem.pdf # Presentation slides
-├── Dijkstra/                                # Route generation module
-│   ├── dataset/
-│   │   └── MegaDB.csv                       # Road network + external data
-│   ├── main.py                              # Running route generation script
-│   ├── requirements.txt
-│   └── README.md
 │
-├── TwoTower/                                # Two-Tower recommendation model
+├── Dijkstra/                                  # Route generation module
+│   ├── main.py                                # Running route generation script
+│   ├── requirements.txt                       # Required packages
+│   └── README.md                              # Usage guide and explanation
+│
+├── TwoTower/                                  # Two-Tower recommendation model
 │   ├── TwoTower_Warmstart/
 │   ├── TwoTower_Coldstart/
 │   └── README.md
 │
-├── DCNDeepFM/                               # Deep & Cross Network + DeepFM model
-│   ├── DCNDeepFM_Warmstart/
-│   ├── DCNDeepFM_Coldstart/
-│   └── README.md
+├── DCNDeepFM/                                 # Deep & Cross Network + DeepFM model
+│   ├── DCNDeepFM_Warmstart_train.py
+│   ├── DCNDeepFM_Coldstart_train.py
+│   └── requirements.txt
 │
-├── KGAT/                                    # Knowledge Graph Attention Network
-│   ├── KGAT_Warmstart/
-│   ├── KGAT_Coldstart/
-│   └── README.md
+├── KGAT/                                      # Knowledge Graph Attention Network
+│   ├── cold.py
+│   ├── warm.py
+│   ├── triple.py
+│   ├── traintest.py
+│   └── requirements.txt
 │
-└── Dataset/                                 # Common datasets
-    ├── MegaDB.csv                           # Raw road data (OSMnx + external data)
-    ├── generated_routes.csv                 # 38,000 generated loop routes
-    ├── routes_with_features.csv             # Aggregated route features (item dataset)
-    ├── user_output.csv                      # User preference survey results
-    └── user_preferred_route.csv             # User–route interaction dataset (training input)
+└── Dataset/                                   # Common datasets
+    ├── df_route_capped_normalized.hwp         # Normalized route data
+    ├── kg_triples_final.hwp                   # Knowledge graph triples
+    ├── Mega_DB_processed.hwp                  # Road network + external data
+    ├── nodes_db.hwp                           # Node-level road network info
+    ├── output4 (1).hwp                        # Intermediate output
+    ├── pf_route.hwp                           # Candidate route dataset
+    └── user_preferred_route.hwp               # User–route interaction data
 
 
 ```
