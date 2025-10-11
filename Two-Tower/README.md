@@ -1,4 +1,4 @@
-<img width="1660" height="804" alt="25-2_DSL_RecSys_report" src="https://github.com/user-attachments/assets/c3ff4c92-e2a7-4244-a9e9-6a6f1449a589" />## **0. 개요**
+## **0. 개요**
 
 **Two-Tower (Dual Encoder)** 는 사용자와 아이템 임베딩을 각각 독립적으로
 학습하여 효율적인 **유사도 기반 검색 및 추천 (Embedding-based
