@@ -33,8 +33,8 @@ RunningCourse_Recommendation/
 │   └── README.md                              # Usage guide and explanation
 │
 ├── TwoTower/                                  # Two-Tower recommendation model
-│   ├── TwoTower_Warmstart/
-│   ├── TwoTower_Coldstart/
+│   ├── warmTT.py                              # Two-Tower warmstart
+│   ├── twotower.py                            # Two-Tower coldstart
 │   └── README.md
 │
 ├── DCNDeepFM/                                 # Deep & Cross Network + DeepFM model
