@@ -12,11 +12,11 @@ Retrieval)** 을 수행하는 모델이다.
 
 ## **1. 주요 기능**
 
--   사용자 타워 (User Tower) / 아이템 타워 (Item Tower) 이중 구조\
--   Negative Sampling 기반 대조 학습 (Contrastive Learning)\
--   Dot Product / Cosine Similarity 기반 유사도 계산\
--   TensorFlow 및 PyTorch 환경 호환\
--   Recall@K, NDCG@K, HitRate@K 등 주요 추천 평가 지표 지원\
+-   사용자 타워 (User Tower) / 아이템 타워 (Item Tower) 이중 구조
+-   Negative Sampling 기반 대조 학습 (Contrastive Learning)
+-   Dot Product / Cosine Similarity 기반 유사도 계산
+-   TensorFlow 및 PyTorch 환경 호환
+-   Recall@K, NDCG@K, HitRate@K 등 주요 추천 평가 지표 지원
 -   FAISS / ANN을 통한 대규모 임베딩 검색 확장 가능
 
 ------------------------------------------------------------------------
