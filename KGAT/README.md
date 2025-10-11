@@ -39,7 +39,7 @@
 
 ### **1) 모델 구조**
 
-보고서 사진과 동일
+<img width="1156" height="364" alt="25-2_DSL_RecSys_report" src="https://github.com/user-attachments/assets/c0c7006f-0231-42b8-8d6c-c375ec075a25" />
 
 ### **2) 데이터 구성**
 
