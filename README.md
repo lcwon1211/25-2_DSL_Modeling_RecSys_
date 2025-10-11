@@ -50,13 +50,13 @@ RunningCourse_Recommendation/
 │   └── requirements.txt
 │
 └── Dataset/                                   # Common datasets
-    ├── df_route_capped_normalized.hwp         # Normalized route data
-    ├── kg_triples_final.hwp                   # Knowledge graph triples
-    ├── Mega_DB_processed.hwp                  # Road network + external data
-    ├── nodes_db.hwp                           # Node-level road network info
-    ├── output4 (1).hwp                        # Intermediate output
-    ├── pf_route.hwp                           # Candidate route dataset
-    └── user_preferred_route.hwp               # User–route interaction data
+    ├── df_route_capped_normalized.csv         # Normalized route data
+    ├── kg_triples_final.csv                   # Knowledge graph triples
+    ├── Mega_DB_processed.csv                  # Road network + external data
+    ├── nodes_db.csv                           # Node-level road network info
+    ├── output4 (1).csv                        # Intermediate output
+    ├── pf_route.csv                           # Candidate route dataset
+    └── user_preferred_route.csv               # User–route interaction data
 
 
 ```
